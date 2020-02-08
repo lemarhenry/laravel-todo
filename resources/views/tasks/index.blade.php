@@ -22,7 +22,7 @@
         </h3>
         <hr>
         <p>{{ $task->description }}</p>
-        <h4>{{$task->due_date }}</h4>
+        <h3>{{$task->due_date }}</h3>
         <a href="{{route('task.edit',$task->id)}}"class="btn btn-sm block btn-primary">Edit</a>
     </div>
 
