@@ -31,7 +31,7 @@
 
 <div class="row justify-content-center">
     <div class="col-sm-6-text-center">
-        {{ $tasks ->links() }}
+        {{-- {{ $tasks ->links() }} --}}
     </div>
 </div>
 @endsection
